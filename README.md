@@ -6,7 +6,7 @@
 動作の流れとしては  
 ・単語追加  
 client -> サーバー -> スプレッドシート
-・単語参照
+・単語参照  
 client -> サーバー -> スプレッドシート -> サーバー - > client
 
 雛形としてwtetsuさんの[webextensions-webpack-boilerplate](https://qiita.com/wtetsu/items/ae009e70d1ee04c15836)を使わせていただきました。
