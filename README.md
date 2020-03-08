@@ -11,7 +11,7 @@ client -> サーバー -> スプレッドシート -> サーバー - > client
 
 雛形としてwtetsuさんの[webextensions-webpack-boilerplate](https://qiita.com/wtetsu/items/ae009e70d1ee04c15836)を使わせていただきました。 
   
-https://github.com/yohi0307/wr-client-p/images/wr_movie.gif
+https://github.com/yohi0307/wr-client-p/wiki/images/wr_movie.gif
 
 
 
