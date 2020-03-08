@@ -7,7 +7,9 @@ module.exports = {
     options: "./src/options.js",
     content: "./src/content.js",
     sendMessage: "./src/sendMessage.js",
-    receiveMessage: "./src/receiveMessage.js"
+    receiveMessage: "./src/receiveMessage.js",
+    sendMessageMain: "./src/sendMessageMain.js",
+    receiveMessageMain: "./src/receiveMessageMain.js"
   },
   module: {
     rules: [

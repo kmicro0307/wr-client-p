@@ -17,7 +17,7 @@ if (BROWSER == "CHROME") {
     console.log(selectedText);
     const sendMessage = new SendMessage(gasUrl, selectedText)
     sendMessage.sendProcess()
-    alert('登録')
+    //alert('登録')
   }, false);
    
   //単語を参照する
