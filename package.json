@@ -1,0 +1,35 @@
+{
+  "name": "webextensions-webpack-boilerplate",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run build-chrome",
+    "watch": "npm run watch-chrome",
+    "release": "npm run release-chrome",
+    "build-chrome": "webpack --config webpack.config.chrome.js",
+    "watch-chrome": "webpack -w --config webpack.config.chrome.js",
+    "release-chrome": "NODE_ENV=production npm run build",
+    "build-firefox": "webpack --config webpack.config.firefox.js",
+    "watch-firefox": "webpack -w --config webpack.config.firefox.js",
+    "release-firefox": "NODE_ENV=production npm run build-ff",
+    "lint": "eslint src/*.js",
+    "test": "jest",
+    "test-watch": "jest --watch"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "npm-install-missing": "^0.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.1.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.3.0",
+    "jest": "^24.9.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
+}
