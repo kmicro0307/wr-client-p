@@ -1,8 +1,9 @@
 # word_referencer
 
-カーソルで選択した単語のgoogleスプレッドシートへの登録とサイト内で追加した単語の参照ができるchrome拡張機能です。
-サーバー側->[wr-server-p](https://github.com/yohi0307/wr-server-p)
-
+以下のことができます。  
+・カーソルで選択した単語のgoogleスプレッドシートへの登録とサイト内で追加した単語の参照ができるchrome拡張機能です。
+・サーバー側->[wr-server-p](https://github.com/yohi0307/wr-server-p)
+  
 動作の流れとしては  
 ・単語追加  
 client -> サーバー -> スプレッドシート  
