@@ -16,7 +16,7 @@
     "test-watch": "jest --watch"
   },
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "npm-install-missing": "^0.1.4"
   },
   "devDependencies": {
